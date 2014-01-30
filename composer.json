@@ -1,0 +1,23 @@
+{
+    "name": "sopinet/simple-point-bundle",
+    "version": "0.0.1",
+    "description": "Symfony2 Bundle - Easy integration for DropzoneJS and OneupUploaderBundle",
+    "keywords": ["geospatial", "distance", "symfony2", "bundle", "sopinet"],
+    "type": "symfony-bundle",
+    "license": "GPL2",
+    "minimum-stability" : "dev",
+    "authors": [
+        {
+            "name": "Fernando Hidalgo",
+            "email": "fhidalgo@sopinet.com",
+            "homepage": "http://sopinet.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-0": { "Sopinet\\Bundle\\SimplePointBundle": "" }
+    },
+    "target-dir": "Sopinet/Bundle/SimplePointBundle"
+}
