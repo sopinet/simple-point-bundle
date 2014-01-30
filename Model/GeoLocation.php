@@ -1,7 +1,7 @@
 <?php
 namespace Sopinet\Bundle\SimplePointBundle\Model;
  
-use Sopinet\SimplePointBundle\ORM\Type\SimplePoint;
+use Sopinet\Bundle\SimplePointBundle\ORM\Type\SimplePoint;
 
 /**
  * Point object for spatial mapping
