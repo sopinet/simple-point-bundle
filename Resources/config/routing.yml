@@ -1,0 +1,3 @@
+sopinet_simple_point_homepage:
+    path:  /hello/{name}
+    defaults: { _controller: SopinetSimplePointBundle:Default:index }
