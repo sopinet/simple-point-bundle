@@ -3,13 +3,13 @@ simple-point-bundle
 
 Symfony2 Bundle. Trait and helpers for use Geospatial Point entity
 
-== Installation
+## Installation
 
-=== TODO
+### TODO
 
 More documentation is coming...
 
-=== Add type
+### Add type
 
 ```yml
 doctrine:
