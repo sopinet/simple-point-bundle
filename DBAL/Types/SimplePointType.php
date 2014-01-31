@@ -36,7 +36,7 @@ class SimplePointType extends Type {
         }
  
         $data = unpack('x/x/x/x/corder/Ltype/dlat/dlon', $value);
-        return new \Sopinet\SimplePointBundle\ORM\Type\SimplePoint($data['lat'], $data['lon']);
+        return new \Sopinet\Bundle\SimplePointBundle\ORM\Type\SimplePoint($data['lat'], $data['lon']);
     }
  
     public function convertToDatabaseValue($value, AbstractPlatform $platform) {
